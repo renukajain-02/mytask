@@ -1,0 +1,114 @@
+body{
+    background-color: black;
+  }
+  .top-left{
+    margin-top: 150px;
+  }
+.padding-time{
+    padding-left: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.padding-time-name{
+    padding-left: 23px;
+    font-size: 14px;
+}
+.zoom:hover {
+    transform: scale(1.2); 
+  }
+.input-email{
+    color: white;
+    border-radius: 5px;
+    border-color: darkgray;
+    background-color: rgb(26, 22, 22);
+    padding: 5px;
+    width: 180px;
+    text-align: left;
+}
+.btn-notify{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border-color: red;
+    padding: 7px;
+    font-size: 12px;
+    margin: auto;
+}
+.btn-notify:hover{
+    background-color: white;
+    border-color: white;
+    opacity: .5;
+    color: black;
+    box-shadow: 5px 5px 10px 2px red;
+}
+ul {
+    list-style: none; 
+    padding-left: 0px;
+}
+.list-one li:before {
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: yellow;
+    margin: 0 32px 0 -38px;
+  }
+  .list-two li:before {
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: rgb(224, 65, 91);
+    margin: 0 32px 0 -38px;
+  }
+  .list-three li:before {
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: cyan;
+    margin: 0 32px 0 -38px;
+  }
+.btn-contact{
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+    width: 130px; 
+    border-radius: 5px;
+}
+.btn-contact:hover{
+    background-color: white;
+    opacity: .5;
+    color: black;
+}
+
+@media (max-width: 767px) {  
+    .div-center{
+        text-align: center !important;
+    }
+    .btn-notify{
+        margin-top: 15px;
+    }
+    .list-one li:before {
+        margin: 0 15px 0 0px;
+        text-align: center !important;
+      }
+      .list-two li:before {
+        margin: 0 15px 0 0px;
+      }
+      .list-three li:before {
+        margin: 0 15px 0 0px;
+      }
+}
+@media (min-width: 768px) and (max-width: 1023px){
+    .btn-notify{
+        margin-left: 75px;
+        width: 95px;
+    }
+}

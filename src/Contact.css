@@ -1,0 +1,58 @@
+.back_color{
+    background-color: rgb(49, 49, 49) !important;
+    color: white;
+    height: 1040px;
+    padding-left: 85px;
+    width: 720px;
+  }
+.input_name{
+    background-color: transparent;
+    border: none;
+}
+.btn_submit{
+    background-color: transparent !important;
+    color: white;
+    border-color: white;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+    width: 130px; 
+    border-radius: 5px;
+}
+.ul_list {
+    list-style: none; 
+    padding-left: 0px;
+}
+ .list1 li:before {
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: rgb(224, 65, 91);
+    margin: 0 32px -28px -44px;
+  }
+  .drawerPaper{
+    width: 50px;
+    margin-top: 5%;
+    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    height: 10px;
+    color: rgb(31, 25, 25);
+  }
+
+  @media (max-width: 767px) {
+    .back_color{
+      width: 360px !important;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .back_color{
+      width: 420px !important;
+    }
+  }
+
+
+  
+  
